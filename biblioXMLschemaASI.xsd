@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+    <xs:element name="bibliographie" >
+        <xs:complexType>
+            <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" ref="livre"/>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" ref="chapitrelivre"/>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" ref="article"/>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" ref="colloque"/>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" ref="prépublication"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="livre" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element name="auteur">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom" type="xs:string"/>
+                            <xs:element name="prénom" type="xs:string"/>
+                        </xs:sequence>                 
+                    </xs:complexType>
+                    </xs:element>
+                    <xs:element name="auteurs">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="auteur" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="nom" type="xs:string"/>
+                                            <xs:element name="prénom" type="xs:string"/>
+                                        </xs:sequence>                 
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:element name="titre" type="xs:string"/>
+                <xs:element name="édition" type="xs:string"/>
+                <xs:element name="lieu" type="xs:string"/>
+                <xs:element name="année" type="xs:integer"/>
+                <xs:element name="langue" type="xs:string"/>
+                <xs:element name="ISBN" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="cataloguebiblio" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="chapitrelivre" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element name="auteur">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nom" type="xs:string"/>
+                                <xs:element name="prénom" type="xs:string"/>
+                            </xs:sequence>                 
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="auteurs">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="auteur" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="nom" type="xs:string"/>
+                                            <xs:element name="prénom" type="xs:string"/>
+                                        </xs:sequence>                 
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:element name="titrechapitre" type="xs:string"/>
+                <xs:choice>
+                    <xs:element name="éditeur">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nom" type="xs:string"/>
+                                <xs:element name="prénom" type="xs:string"/>
+                            </xs:sequence>                 
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="éditeurs">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="éditeur" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="nom" type="xs:string"/>
+                                            <xs:element name="prénom" type="xs:string"/>
+                                        </xs:sequence>                 
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:element name="titrelivre" type="xs:string"/>
+                <xs:element name="édition" type="xs:string"/>
+                <xs:element name="lieu" type="xs:string"/>
+                <xs:element name="année" type="xs:integer"/>
+                <xs:element name="nbpages" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="langue" type="xs:string"/>
+                <xs:element name="DOI" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ISBN" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="cataloguebiblio" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element name="auteur">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nom" type="xs:string"/>
+                                <xs:element name="prénom" type="xs:string"/>
+                            </xs:sequence>                 
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="auteurs">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="auteur" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="nom" type="xs:string"/>
+                                            <xs:element name="prénom" type="xs:string"/>
+                                        </xs:sequence>                 
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:element name="titre" type="xs:string"/>
+                <xs:element name="revue" type="xs:string"/>
+                <xs:element name="volume" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="numéro" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="année" type="xs:integer"/>
+                <xs:element name="nbpages" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="langue" type="xs:string"/>
+                <xs:element name="DOI" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ISSN" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="cataloguebiblio" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="colloque">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element name="auteur">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nom" type="xs:string"/>
+                                <xs:element name="prénom" type="xs:string"/>
+                            </xs:sequence>                 
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="auteurs">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="auteur" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="nom" type="xs:string"/>
+                                            <xs:element name="prénom" type="xs:string"/>
+                                        </xs:sequence>                 
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:element name="titre" type="xs:string"/>
+                <xs:choice>
+                    <xs:element name="éditeur">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nom" type="xs:string"/>
+                                <xs:element name="prénom" type="xs:string"/>
+                            </xs:sequence>                 
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="éditeurs">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="éditeur" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="nom" type="xs:string"/>
+                                            <xs:element name="prénom" type="xs:string"/>
+                                        </xs:sequence>                 
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:element name="titrecolloque" type="xs:string"/>
+                <xs:element name="édition" type="xs:string"/>
+                <xs:element name="lieu" type="xs:string"/>
+                <xs:element name="année" type="xs:integer"/>
+                <xs:element name="nbpages" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="langue" type="xs:string"/>
+                <xs:element name="DOI" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="ISBN" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="cataloguebiblio" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="prépublication">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element name="auteur">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nom" type="xs:string"/>
+                                <xs:element name="prénom" type="xs:string"/>
+                            </xs:sequence>                 
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="auteurs">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="auteur" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="nom" type="xs:string"/>
+                                            <xs:element name="prénom" type="xs:string"/>
+                                        </xs:sequence>                 
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:element name="titre" type="xs:string"/>
+                <xs:element name="année" type="xs:integer"/>
+                <xs:element name="nbpages" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="langue" type="xs:string"/>
+                <xs:element name="identifiantarchive" type="xs:string"/>
+                <xs:element name="DOI" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="dépôt" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="cataloguebiblio" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+ </xs:schema>       
+    
+   

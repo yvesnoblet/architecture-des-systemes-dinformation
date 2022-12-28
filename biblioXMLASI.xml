@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliographie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="biblioXMLschemaASI.xsd">
+    
+  <livre>
+      <auteurs>         
+          <auteur>
+               <nom>Lemberger</nom>
+               <prénom>Pirmin</prénom>
+          </auteur>         
+          <auteur>
+              <nom>Batty</nom>
+              <prénom>Marc</prénom> 
+          </auteur>
+          <auteur>
+              <nom> Morel</nom>
+              <prénom>Médéric</prénom>
+          </auteur>
+          <auteur>
+              <nom>Raffaëlli</nom>
+              <prénom>Jean-Luc</prénom>
+          </auteur>
+      </auteurs>
+      <titre>Big data et machine learning: les concepts et les outils de la data science</titre>
+      <édition>Dunod</édition>
+      <lieu></lieu>
+      <année>2019</année>
+      <langue>Français</langue>
+      <ISBN>978-2-10-079037-1</ISBN>
+      <url></url>
+      <cataloguebiblio>BnF ISBN</cataloguebiblio>
+  </livre> 
+  <chapitrelivre>
+      <auteurs>
+          <auteur>
+              <nom>Glazkova</nom>
+              <prénom>Anna</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Kruzhinov</nom>
+              <prénom>Valery</prénom>                
+          </auteur>
+          <auteur>
+              <nom>Sokova</nom>
+              <prénom>Zinaida</prénom>          
+          </auteur>
+      </auteurs>
+      <titrechapitre>Automatic Text Processing for Historical Research</titrechapitre>
+      <éditeurs>
+          <éditeur>
+              <nom>Sukhomlin</nom>
+              <prénom>Vladimir</prénom> 
+          </éditeur>
+          <éditeur>
+              <nom>Zubareva</nom>
+              <prénom>Elena</prénom>               
+          </éditeur>
+      </éditeurs>
+      <titrelivre>Modern Information Technology and IT Education</titrelivre>
+      <édition>Springer International Publishing</édition>
+      <lieu>Moscou</lieu>
+      <année>2021</année>
+      <nbpages>135-146</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1007/978-3-030-78273-3</DOI>          
+      <ISBN>978-3-030-78272-6</ISBN>
+      <url>https://link.springer.com/10.1007/978-3-030-78273-3_14</url>
+      <cataloguebiblio>DOI.org (Crossref)</cataloguebiblio>
+  </chapitrelivre>  
+          
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Caliskan</nom>
+              <prénom>Aylin</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Bryson</nom>
+              <prénom> Joanna J.</prénom>             
+          </auteur>
+          <auteur>
+              <nom>Narayanan</nom>
+              <prénom>Arvind</prénom>               
+          </auteur>
+      </auteurs>
+      <titre>Semantics derived automatically from language corpora contain human-like biases</titre>
+      <revue>Science</revue>
+      <volume>356</volume>
+      <numéro>6334</numéro>
+      <année>2017</année>
+      <nbpages>183-186</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1126/science.aal4230</DOI>
+      <ISSN>0036-8075</ISSN>
+      <url>https://www.science.org/doi/full/10.1126/science.aal4230</url>
+      <cataloguebiblio>science.org (Atypon)</cataloguebiblio>
+  </article>
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Garg</nom>
+              <prénom>Nikhil</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Schiebinger</nom>
+              <prénom>Londa</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Jan</nom>
+              <prénom>Jurafsky</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Zou</nom>
+              <prénom>James</prénom>         
+          </auteur>
+      </auteurs>
+      <titre>Word embeddings quantify 100 years of gender and ethnic stereotypes</titre>
+      <revue>Proceedings of the National Academy of Sciences</revue>
+      <volume>115</volume>
+      <numéro>16</numéro>
+      <année>2022</année>
+      <nbpages>E3635-E3644</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1073/pnas.1720347115</DOI>
+      <ISSN> 0027-8424</ISSN>
+      <url>https://www.pnas.org/doi/full/10.1073/pnas.1720347115</url>
+      <cataloguebiblio>pnas.org (Atypon)</cataloguebiblio>
+  </article>    
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Liebeskind</nom>
+              <prénom>Chaya</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Liebeskind</nom>
+              <prénom>Shmuel</prénom>              
+          </auteur>
+      </auteurs>
+      <titre>Deep Learning for Period Classification of Historical Hebrew Texts</titre>
+      <revue>Journal of Data Mining and Digital Humanities</revue>
+      <volume>2020</volume>
+      <numéro></numéro>
+      <année>2020</année>
+      <nbpages></nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.46298/jdmdh.5864</DOI>
+      <ISSN>2416-5999</ISSN>
+      <url>https://hal.archives-ouvertes.fr/hal-02324617</url>
+      <cataloguebiblio>HAL Archives Ouvertes</cataloguebiblio>
+  </article> 
+ 
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Labbé</nom>
+              <prénom>Cyril</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Labbé</nom>
+              <prénom>Dominique</prénom> 
+          </auteur>
+      </auteurs>
+      <titre>How to Measure the Meanings of Words? Amour in Corneille’s Work</titre>
+      <revue>Language Resources and Evaluation</revue>
+      <volume>39</volume>
+      <numéro>4</numéro>
+      <année>2005</année>
+      <nbpages>335-351</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1007/s10579-006-9002-8</DOI>
+      <ISSN>1574-020X</ISSN>
+      <url>http://link.springer.com/10.1007/s10579-006-9002-8</url>
+      <cataloguebiblio>DOI.org (Crossref)</cataloguebiblio>
+  </article>
+
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Lee</nom>
+              <prénom>Kamwoo</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Braithwaite</nom>
+              <prénom>Jeanine</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Atchikpa</nom>
+              <prénom>Michel</prénom> 
+          </auteur>
+      </auteurs>
+      <titre>Word embedding analysis on colonial history, present issues, and optimism toward the future in Senegal</titre>
+      <revue>Computational and Mathematical Organization Theory</revue>
+      <volume>27</volume>
+      <numéro>3</numéro>
+      <année>2021</année>
+      <nbpages>343-356</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1007/s10588-021-09335-y</DOI>
+      <ISSN>1381-298X</ISSN>
+      <url>https://link.springer.com/10.1007/s10588-021-09335-y</url>
+      <cataloguebiblio>DOI.org (Crossref)</cataloguebiblio>
+  </article>
+
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Jakhar</nom>
+              <prénom>Deepak</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Kaur</nom>
+              <prénom>Ishmeet</prénom>               
+          </auteur>
+      </auteurs>
+      <titre>Artificial intelligence, machine learning and deep learning: definitions and differences</titre>
+      <revue>Artificial intelligence, machine learning and deep learning: definitions and differences</revue>
+      <volume>45</volume>
+      <numéro>1</numéro>
+      <année>2020</année>
+      <nbpages>131-132</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1111/ced.14029</DOI>
+      <ISSN>1365-2230</ISSN>
+      <url>http://onlinelibrary.wiley.com/doi/abs/10.1111/ced.14029</url>
+      <cataloguebiblio>Wiley Online Library</cataloguebiblio>
+  </article>
+    
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Janiesch</nom>
+              <prénom>Christian</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Zschech</nom>
+              <prénom>Patrick</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Heinrich</nom>
+              <prénom>Kai</prénom> 
+          </auteur>
+      </auteurs>
+      <titre>Machine learning and deep learning</titre>
+      <revue>Electronic Markets</revue>
+      <volume>31</volume>
+      <numéro>3</numéro>
+      <année>2021</année>
+      <nbpages>685-695</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1007/s12525-021-00475-2</DOI>
+      <ISSN>1019-6781</ISSN>
+      <url>https://link.springer.com/10.1007/s12525-021-00475-2</url>
+      <cataloguebiblio>DOI.org (Crossref)</cataloguebiblio>
+  </article> 
+    
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Jin</nom>
+              <prénom>KyoHoon</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Wi</nom>
+              <prénom>JeongA</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Kang</nom>
+              <prénom>KyeongPil</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Kim</nom>
+              <prénom>YoungBin</prénom>                        
+          </auteur>
+      </auteurs>
+      <titre>Korean Historical Documents Analysis with Improved Dynamic Word Embedding</titre>
+      <revue>Applied Sciences</revue>
+      <volume>10</volume>
+      <numéro>21</numéro>
+      <année>2020</année>
+      <nbpages>7939</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.3390/app10217939</DOI>
+      <ISSN>2076-3417</ISSN>
+      <url>http://www.proquest.com/docview/2534072115/abstract/63B38EE3CAE54908PQ/1</url>
+      <cataloguebiblio>ProQuest</cataloguebiblio>
+  </article> 
+  <article>
+      <auteurs>
+          <auteur>
+              <nom>Maulud</nom>
+              <prénom> Dastan Hussen </prénom>             
+          </auteur>
+          <auteur>
+              <nom>Zeebaree</nom>
+              <prénom>Subhi R. M.</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Jacksi</nom>
+              <prénom>Karwan</prénom> 
+          </auteur>
+          <auteur>
+              <nom>Sadeeq</nom>
+              <prénom>Mohammed A. M.</prénom>             
+          </auteur>
+          <auteur>
+              <nom>Sharif</nom>
+              <prénom>Karzan Hussein</prénom>              
+          </auteur>
+      </auteurs>
+      <titre>State of Art for Semantic Analysis of Natural Language Processing</titre>
+      <revue>Qubahan Academic Journal</revue>
+      <volume>1</volume>
+      <numéro>2</numéro>
+      <année>2021</année>
+      <nbpages>21-28</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.48161/qaj.v1n2a44</DOI>
+      <ISSN>2709-8206</ISSN>
+      <url>https://journal.qubahan.com/index.php/qaj/article/view/44</url>
+      <cataloguebiblio>journal.qubahan.com</cataloguebiblio>
+  </article> 
+    
+  <article>     
+      <auteur>
+          <nom>Schwandt</nom>
+          <prénom>Silke</prénom>          
+      </auteur>
+      <titre>Virtus as a Political Concept in the Middle Ages</titre>
+      <revue>Contributions to the History of Concepts</revue>
+      <volume>10</volume>
+      <numéro>2</numéro>
+      <année>2015</année>
+      <nbpages>71-90</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.3167/choc.2015.100205</DOI>
+      <ISSN>1807-9326</ISSN>
+      <url>https://www.proquest.com/docview/1768225130/abstract/C487EC8157334B28PQ/1</url>
+      <cataloguebiblio>ProQuest</cataloguebiblio>
+  </article> 
+  
+  <article>
+      <auteur>
+          <nom>Tang</nom>
+          <prénom>Xuri</prénom>          
+      </auteur>
+      <titre>A state-of-the-art of semantic change computation</titre>
+      <revue>Natural Language Engineering</revue>
+      <volume>24</volume>
+      <numéro>5</numéro>
+      <année>2018</année>
+      <nbpages>649-676</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.1017/S1351324918000220</DOI>
+      <ISSN>1351-3249</ISSN>
+      <url>https://www.cambridge.org/core/product/identifier/S1351324918000220/type/journal_article</url>
+      <cataloguebiblio>DOI.org (Crossref)</cataloguebiblio>         
+  </article> 
+  
+  <colloque>
+        <auteurs>
+            <auteur>
+                <nom>Grayson</nom>
+                <prénom>Siobhán</prénom>                 
+            </auteur>
+            <auteur>
+                <nom>Mulvany</nom>
+                <prénom>Maria</prénom>                 
+            </auteur>
+            <auteur>
+                <nom>Wade</nom>
+                <prénom>Karen</prénom>                
+            </auteur>
+            <auteur>
+                <nom>Meaney</nom>
+                <prénom>Gerardine</prénom>                 
+            </auteur>
+            <auteur>
+                <nom>Greene</nom>
+                <prénom>Derek</prénom>                
+            </auteur>
+        </auteurs>
+        <titre>Exploring the Role of Gender in 19th Century Fiction Through the Lens of Word Embeddings</titre>
+        <éditeurs>
+            <éditeur>
+                <nom>Gracia</nom>
+                <prénom>Jorge</prénom>                
+            </éditeur>
+            <éditeur>
+                <nom>Bond</nom>
+                <prénom>Francis</prénom>                 
+            </éditeur>
+            <éditeur>
+                <nom>McCrae</nom>
+                <prénom>John P.</prénom>           
+            </éditeur>
+            <éditeur>
+                <nom>Buitelaar</nom>
+                <prénom>Paul</prénom>                 
+            </éditeur>
+            <éditeur>
+                <nom>Chiarcos</nom>
+                <prénom>Christian</prénom>                 
+            </éditeur>
+            <éditeur>
+                <nom>Hellmann</nom>
+                <prénom>Sebastian</prénom>                 
+            </éditeur>
+        </éditeurs>
+        <titrecolloque>Language, Data, and Knowledge</titrecolloque>
+        <édition>Springer International Publishing</édition>
+        <lieu>Cham</lieu>
+        <année>2017</année>
+        <nbpages>358-364</nbpages>
+        <langue>Anglais</langue>
+        <DOI>10.1007/978-3-319-59888-8 30</DOI>
+        <ISBN>978-3-319-59887-1</ISBN>
+        <url>http://link.springer.com/10.1007/978-3-319-59888-8_30</url>
+        <cataloguebiblio>DOI.org (Crossref)</cataloguebiblio>
+  </colloque> 
+
+  <colloque>
+      <auteur>
+          <nom>Morsel</nom>
+          <prénom>Joseph</prénom>           
+      </auteur>
+      <titre>Quelques propositions pour l'étude de la noblesse européenne à la fin du Moyen Âge</titre>
+      <éditeurs>
+          <éditeur>
+              <nom></nom>
+              <prénom></prénom>
+          </éditeur>
+      </éditeurs>
+      <titrecolloque>Discurso, memoria y representación : la nobleza peninsular en la Baja Edad Media (XLII Semana de Estudios Medievales de Estella)</titrecolloque>
+      <édition>Gobierno de Navarra</édition>
+      <lieu>Pamplona</lieu>
+      <année>2015</année>
+      <nbpages>449-499</nbpages>
+      <langue>Français</langue>
+      <DOI></DOI>
+      <ISBN>978-84-235-3412-8</ISBN>
+      <url>https://halshs.archives-ouvertes.fr/halshs-02529976</url>
+      <cataloguebiblio>HAL Archives Ouvertes</cataloguebiblio>
+  </colloque>
+    
+  <colloque>
+        <auteur>
+            <nom>Perreaux</nom>
+            <prénom>Nicolas</prénom>             
+        </auteur>
+        <titre> Mesurer un système de représentation? Approche statistique du champ lexical de l'eau dans la Patrologie Latine</titre>
+        <éditeurs>
+            <éditeur>
+                <nom></nom>
+                <prénom></prénom>
+            </éditeur>
+        </éditeurs>
+      <titrecolloque>Mesures et histoire médiévale : XLIIIe Congrès de la SHMESP (Tours, 31 mai-2 juin 2012)</titrecolloque>
+        <édition>Éditions de la Sorbonne</édition>
+        <lieu>Paris</lieu>
+        <année>2012</année>
+        <nbpages>365-374</nbpages>
+        <langue>Français</langue>
+        <DOI>10.4000/books.psorbonne.28520</DOI>
+        <ISBN>978-2-859-44756-4</ISBN>
+        <url>https://shs.hal.science/halshs-01148891</url>
+        <cataloguebiblio>HAL Archives Ouvertes</cataloguebiblio>
+  </colloque>
+
+  <colloque>
+      <auteurs>
+          <auteur>
+              <nom>Perrone</nom>
+              <prénom>Valerio</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Palma</nom>
+              <prénom>Marco</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Hengchen</nom>
+              <prénom>Simon</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Vatri</nom>
+              <prénom>Alexandro</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Smith</nom>
+              <prénom>Jim.Q</prénom>               
+          </auteur>
+          <auteur>
+              <nom>McGillivray</nom>
+              <prénom>Barbara</prénom>              
+          </auteur>
+      </auteurs>
+      <titre>GASC: Genre-Aware Semantic Change for Ancient Greek</titre>
+      <éditeurs>
+          <éditeur>
+              <nom>Tahmasebi</nom>
+              <prénom>Nina</prénom>              
+          </éditeur>
+          <éditeur>
+              <nom>Borin</nom>
+              <prénom>Lars</prénom>               
+          </éditeur>
+          <éditeur>
+              <nom>Jatowt</nom>
+              <prénom>Adam</prénom>               
+          </éditeur>
+          <éditeur>
+              <nom>Xu</nom>
+              <prénom>Yang</prénom>               
+          </éditeur>
+      </éditeurs>
+      <titrecolloque>Proceedings of the 1st International Workshop on Computational Approaches to Historical Language Change</titrecolloque>
+      <édition>The Association for Computational Linguistics</édition>
+      <lieu>Florence</lieu>
+      <année>2019</année>
+      <nbpages>56-66</nbpages>
+      <langue>Anglais</langue>
+      <DOI>10.18653/v1/W19-4707</DOI>
+      <ISBN>978-1-950737-31-4</ISBN>
+      <url>http://arxiv.org/abs/1903.05587</url>
+      <cataloguebiblio>arXiv.org</cataloguebiblio>
+  </colloque>
+
+  <prépublication>      
+      <auteurs>
+           <auteur>
+               <nom>Di Bernardo</nom>
+               <prénom>Arianna </prénom>             
+           </auteur>
+           <auteur>
+               <nom>Poetto</nom>
+               <prénom>Simone</prénom>              
+           </auteur>
+           <auteur>
+               <nom>Sillano</nom>
+               <prénom>Pietro</prénom>               
+           </auteur>
+           <auteur>
+               <nom>Villata</nom>
+               <prénom>Beatrice</prénom>               
+           </auteur>
+           <auteur>
+               <nom>Sójka</nom>
+               <prénom>Weronika</prénom>              
+           </auteur>
+           <auteur>
+               <nom>Piętka-Danilewicz</nom>
+               <prénom>Zofia</prénom>              
+           </auteur>
+           <auteur>
+               <nom>Pranke</nom>
+               <prénom>Piotr</prénom>              
+           </auteur>
+      </auteurs>
+      <titre>Latin writing styles analysis with Machine Learning: New approach to old questions</titre>   
+      <année>2021</année>
+      <nbpages></nbpages>
+      <langue>Anglais</langue>
+      <identifiantarchive>arXiv:2109.00601</identifiantarchive>
+      <DOI>10.48550/arxiv.2109.00601</DOI>
+      <dépôt>arXiv</dépôt>
+      <url>https://arxiv.org/abs/2109.00601</url>
+      <cataloguebiblio>arXiv.org</cataloguebiblio>
+  </prépublication>    
+
+  <prépublication>
+      <auteurs>
+          <auteur>
+              <nom>Ehrmann</nom>
+              <prénom>Maud</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Hamdi</nom>
+              <prénom>Ahmed</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Pontes</nom>
+              <prénom> Elvys Linhares</prénom>             
+          </auteur>
+          <auteur>
+              <nom>Romanello</nom>
+              <prénom>Matteo</prénom>
+          </auteur>
+          <auteur>
+              <nom>Doucet</nom>
+              <prénom>Antoine</prénom>               
+          </auteur>
+      </auteurs>
+      <titre>Named Entity Recognition and Classification on Historical Documents: A Survey</titre>     
+      <année>2021</année>
+      <nbpages></nbpages>
+      <langue>Anglais</langue>
+      <identifiantarchive>arXiv:2109.11406</identifiantarchive>
+      <DOI>10.48550/arxiv.2109.11406</DOI>
+      <dépôt>arXiv</dépôt>
+      <url>http://arxiv.org/abs/2109.11406</url>
+      <cataloguebiblio>arXiv.org</cataloguebiblio>
+  </prépublication>
+    
+  <prépublication>
+      <auteurs>
+          <auteur>
+              <nom>Matthews</nom>
+              <prénom>Sean</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Hudzina</nom>
+              <prénom>John</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Sepehr</nom>
+              <prénom>Dawn</prénom>              
+          </auteur>
+      </auteurs>
+      <titre>Gender and Racial Stereotype Detection in Legal Opinion Word Embeddings</titre>
+      <année>2022</année>
+      <nbpages></nbpages>
+      <langue>Anglais</langue>
+      <identifiantarchive>arXiv:2203.13369</identifiantarchive>
+      <DOI>10.48550/arxiv.2203.13369</DOI>
+      <dépôt>arXiv</dépôt>
+      <url>http://arxiv.org/abs/2203.13369</url>
+      <cataloguebiblio>arXiv.org</cataloguebiblio>
+  </prépublication>
+    
+  <prépublication>
+      <auteurs>
+          <auteur>
+              <nom>Perrone</nom>
+              <prénom>Valerio</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Hengchen</nom>
+              <prénom>Simon</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Palma</nom>
+              <prénom>Marco</prénom>               
+          </auteur>
+          <auteur>
+              <nom>Vatri</nom>
+              <prénom>Alessandro</prénom>              
+          </auteur>
+          <auteur>
+              <nom>Smith</nom>
+              <prénom>Jim Q.</prénom>              
+          </auteur>
+          <auteur>
+              <nom>McGillivray</nom>
+              <prénom>Barbara</prénom>               
+          </auteur>
+      </auteurs>
+      <titre>Lexical semantic change for Ancient Greek and Latin</titre>
+      <année>2021</année>
+      <nbpages></nbpages>
+      <langue>Anglais</langue>
+      <identifiantarchive>arXiv:2101.09069</identifiantarchive>
+      <DOI>10.48550/arXiv.2101.09069</DOI>
+      <dépôt>arXiv</dépôt>
+      <url>http://arxiv.org/abs/2101.09069</url>
+      <cataloguebiblio>arXiv.org</cataloguebiblio>
+  </prépublication>  
+</bibliographie>
+    
